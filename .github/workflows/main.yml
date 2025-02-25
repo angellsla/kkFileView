@@ -1,6 +1,6 @@
 # This workflow will build a Java project with Maven and a Docker image, then push the image to GitHub Container Registry (ghcr.io)
 
-name: Build and Publish kkFileView Docker Image
+name: 1-Build and Publish kkFileView Docker Image
 
 on:
   push:
