@@ -33,6 +33,6 @@ jobs:
         with:
           context: ./docker/kkfileview-base  # 指定 Dockerfile 所在目录
           file: ./docker/kkfileview-base/Dockerfile  # 指定 Dockerfile 路径
-          platforms: linux/amd64,linux/arm64
+          platforms: linux/amd64
           push: true
-          tags: ghcr.io/angelisia/kkfileview-base:latest
+          tags: ghcr.io/angelisia/kkfileview/kkfileview-base:latest
