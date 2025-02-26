@@ -7,12 +7,14 @@ on:
     branches: [ main ]
   workflow_dispatch:  
 
+permissions:
+  contents: read
+  packages: write
+  id-token: write
+
 jobs:
   build-and-publish:
     runs-on: ubuntu-22.04
-    permissions:
-      contents: read
-      packages: write
 
     steps:
       - name: Checkout code
