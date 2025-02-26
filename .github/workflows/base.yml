@@ -35,4 +35,4 @@ jobs:
           file: ./docker/kkfileview-base/Dockerfile  # 指定 Dockerfile 路径
           platforms: linux/amd64,linux/arm64
           push: true
-          tags: ghcr.io/angelisia/kkfileview/kkfileview-base:latest
+          tags: ghcr.io/angelisia/kkfileview-base:latest
