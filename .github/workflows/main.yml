@@ -3,10 +3,6 @@
 name: 1-Build and Publish kkFileView Docker Image
 
 on:
-  push:
-    branches: [ master ]
-  pull_request:
-    branches: [ master ]
   workflow_dispatch:  
 
 jobs:
